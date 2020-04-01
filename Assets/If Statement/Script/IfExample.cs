@@ -4,25 +4,32 @@ using UnityEngine;
 
 public class IfExample : MonoBehaviour
 {
-    public int myAge = 32;
+    public int easyDifficulty = 0;
+    public int mediumDifficulty = 1;
+    public int hardDifficulty = 2;
+    public int currentDifficulty;
 
     void Start()
     {
-        // IF CONDITION
-        // THEN RUN CODE
+        currentDifficulty = easyDifficulty;
+    }
 
-        // If myAge is greater than or equal to 17
-        // then print out you can drive
-        if(myAge >= 17)
+    private void Update()
+    {
+        if(currentDifficulty == easyDifficulty)
         {
-            Debug.Log("You can drive");
+            Debug.Log("Easy Difficulty");
+        }
+        else if(currentDifficulty == mediumDifficulty){
+            Debug.Log("Medium Difficulty");
+        }
+        else if (currentDifficulty == hardDifficulty){
+            Debug.Log("Hard Difficulty");
         }
         else
         {
-            Debug.Log("You can't drive");
+            Debug.Log("Invalid Level Selected");
         }
-
     }
 
-    
 }
