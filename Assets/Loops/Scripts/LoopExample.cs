@@ -12,7 +12,11 @@ public class LoopExample : MonoBehaviour
         // For Loop
         for (int i = 0; i < 10; i++)
         {
-            Debug.Log(myName);
+            // Only print even
+            if(i % 2 == 0)
+            {
+                Debug.Log(i);
+            }
         }
     }
 
