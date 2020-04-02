@@ -16,5 +16,11 @@ public class ArrayExample : MonoBehaviour
     {
         // Access a array element
         Debug.Log(ages[3]); // prints 2
+
+        // Loop array
+        for (int i = 0; i < items.Length; i++)
+        {
+            Debug.Log("Items: " + items[i]);
+        }
     }
 }
