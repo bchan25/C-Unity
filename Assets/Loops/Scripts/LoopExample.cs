@@ -18,6 +18,19 @@ public class LoopExample : MonoBehaviour
                 Debug.Log(i);
             }
         }
+
+        // Foreach Arrays and Collection
+        // While loops
+
+        // Break out of loops when found item
+        for(int i = 0; i < 40; i++)
+        {
+            if(i == 3)
+            {
+                Debug.Log("FOUND");
+                break;
+            }
+        }
     }
 
     
