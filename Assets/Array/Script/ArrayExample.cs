@@ -22,5 +22,15 @@ public class ArrayExample : MonoBehaviour
         {
             Debug.Log("Items: " + items[i]);
         }
+
+        // Foreach
+        foreach (var name in names)
+        {
+            if(name == "Ben")
+            {
+                Debug.Log("Found " + name);
+                break;
+            }
+        }
     }
 }

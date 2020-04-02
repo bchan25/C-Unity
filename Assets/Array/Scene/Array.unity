@@ -242,7 +242,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e55d7e0df5b88473f9e47ee8ab33bebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  names: []
+  names:
+  - Bob
+  - Chris
+  - Ben
+  - Emma
+  - Lucy
+  - Rafael
   items:
   - Gun
   - Knift
